@@ -1,0 +1,48 @@
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    background-color: #FEF8E2;
+    border-radius: 60px;
+}
+
+nav button {
+    background-color: #FFDF7E;
+    height: 2.8rem;
+    text-align: center;
+    border: none;
+    border-radius: 30px;
+    margin-top: 1.7rem;
+    margin-bottom: 1.7rem;
+    margin-left: 1.5rem;
+    flex-basis: 20%;
+}
+
+nav > button:last-of-type {
+    margin-right: 1.5rem;
+}
+
+#shop img {
+    width: 25%;
+    height: auto;
+    object-fit: contain;
+    padding-left: 1.5rem;
+}
+
+#shop {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 5.3rem;
+    flex-basis: 42%;
+    gap: 2.8rem;
+    border-radius: 40px;
+}
+
+#shop p {
+    font-size: x-large;
+    font-weight: bold;
+}
