@@ -1,0 +1,41 @@
+article {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 70%;
+    margin: auto;
+    background-color: #FEF8E2;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+}
+
+article > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    flex: 1 1 calc(15rem);
+    min-width: 15rem; 
+    padding: 1.5rem;
+    order: 2;
+}
+
+article > div {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 calc(15rem);
+    min-width: 15rem;
+    padding: 1.5rem;
+    color: #774226;
+    order: 1;
+}
+
+article > div > h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+article > div > p {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
